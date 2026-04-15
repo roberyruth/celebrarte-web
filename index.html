@@ -4,14 +4,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>CELEBRARTE | Local de celebraciones en Churriana Málaga</title>
+<title>CELEBRARTE | Eventos y celebraciones en Churriana Málaga</title>
 
-<meta name="description" content="CELEBRARTE en Churriana (Málaga). Alquiler de local para cumpleaños, eventos y celebraciones. Reserva online inmediata. Hasta 70 personas.">
+<meta name="description" content="CELEBRARTE en Churriana (Málaga). Local premium para cumpleaños, eventos privados, reuniones y talleres. Reserva online inmediata.">
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
 
 <style>
-body{margin:0;font-family:Poppins,sans-serif;background:#f6f4f0;color:#222;}
+body{margin:0;font-family:Inter,sans-serif;background:#0f0f10;color:#fff;}
 
 .hero{
 height:100vh;
@@ -20,64 +20,73 @@ flex-direction:column;
 justify-content:center;
 align-items:center;
 text-align:center;
-background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+background:linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
 url('https://images.unsplash.com/photo-1527529482837-4698179dc6ce');
 background-size:cover;
-color:#fff;
+background-position:center;
 padding:20px;
 }
 
-.hero h1{font-size:3.5em;margin:0}
-.hero p{max-width:600px;font-size:1.2em}
+.hero h1{font-size:4em;margin:0;letter-spacing:2px}
+.hero p{max-width:700px;font-size:1.2em;opacity:.9}
 
 .btn{
-margin-top:20px;
-background:#e7d3b6;
+margin-top:25px;
+background:#d8c3a5;
 color:#000;
-padding:15px 30px;
-border-radius:40px;
+padding:15px 35px;
+border-radius:50px;
 text-decoration:none;
 font-weight:700;
 }
 
-.section{padding:80px 20px;max-width:1100px;margin:auto;}
-.section h2{text-align:center;margin-bottom:30px;}
+.section{
+padding:90px 20px;
+max-width:1100px;
+margin:auto;
+}
+
+h2{text-align:center;margin-bottom:40px;font-size:2em}
 
 .grid{
 display:grid;
 gap:20px;
 }
-@media(min-width:768px){.grid{grid-template-columns:repeat(3,1fr)}}
+
+@media(min-width:768px){
+.grid{grid-template-columns:repeat(3,1fr)}
+}
 
 .card{
-background:#fff;
+background:#1a1a1c;
 padding:25px;
 border-radius:15px;
-box-shadow:0 10px 25px rgba(0,0,0,.08);
 transition:.3s;
+border:1px solid #2a2a2a;
 }
-.card:hover{transform:translateY(-5px)}
+
+.card:hover{transform:translateY(-6px);border-color:#d8c3a5}
 
 .price{
-background:#fff;
+background:#1a1a1c;
 padding:20px;
-margin:10px 0;
 border-radius:10px;
-box-shadow:0 5px 15px rgba(0,0,0,.05);
+margin:10px 0;
+border:1px solid #2a2a2a;
 }
 
 .cta{
-background:#111;
-color:#fff;
+background:#d8c3a5;
+color:#000;
 text-align:center;
 padding:80px 20px;
 }
 
 .footer{
-background:#000;
-color:#fff;
 text-align:center;
-padding:25px;
+padding:30px;
+background:#000;
+color:#777;
 }
 
 .whatsapp{
@@ -98,54 +107,52 @@ text-decoration:none;
 
 <div class="hero">
 <h1>CELEBRARTE</h1>
-<p>Tu espacio privado de celebraciones en Churriana (Málaga). Eventos, cumpleaños y reuniones sin límites.</p>
+<p>El espacio privado para celebraciones en Churriana (Málaga). Diseñado para eventos que se recuerdan.</p>
 <a class="btn" href="#reserva">Reservar ahora</a>
 </div>
 
 <div class="section">
-<h2>¿Qué es CELEBRARTE?</h2>
-<p style="text-align:center;max-width:800px;margin:auto;">
-Un local privado diseñado para celebraciones de todo tipo. Tú traes la fiesta, nosotros el espacio perfecto en Málaga.
-Hasta 70 personas con total libertad de uso.
+<h2>Tu evento, tu espacio</h2>
+<p style="text-align:center;max-width:800px;margin:auto;opacity:.8">
+Un local privado en Málaga para cumpleaños, eventos familiares, reuniones y talleres. Hasta 70 personas en un entorno elegante y versátil.
 </p>
 </div>
 
 <div class="section">
-<h2>Servicios</h2>
+<h2>Qué puedes hacer aquí</h2>
 <div class="grid">
 <div class="card">🎉 Cumpleaños infantiles y adultos</div>
 <div class="card">🏠 Local privado completo</div>
-<div class="card">💃 Talleres (sevillanas, pilates…)</div>
+<div class="card">💃 Talleres y actividades</div>
 <div class="card">🎈 Eventos familiares</div>
-<div class="card">👨‍👩‍👧 Hasta 70 personas</div>
-<div class="card">✨ Espacio flexible</div>
+<div class="card">👥 Capacidad hasta 70 personas</div>
+<div class="card">✨ Espacio totalmente adaptable</div>
 </div>
 </div>
 
 <div class="section">
 <h2>Precios</h2>
-
 <div class="price">Mañanas desde 95€</div>
-<div class="price">Tardes desde 125€ - 160€</div>
+<div class="price">Tardes desde 125€ – 160€</div>
 <div class="price">Día completo desde 225€</div>
 <div class="price">Horas extra disponibles</div>
 </div>
 
+<div class="cta" id="reserva">
+<h2>Reserva tu fecha</h2>
+<p>Consulta disponibilidad y bloquea tu evento online</p>
+<a class="btn" href="#">ACCESO A RESERVAS</a>
+</div>
+
 <div class="section">
 <h2>Ubicación</h2>
-<p style="text-align:center">
-Churriana (Málaga) · Cerca de Torremolinos, Guadalmar y Alhaurín de la Torre
+<p style="text-align:center;opacity:.8">
+Churriana · Málaga · Cerca de Torremolinos, Guadalmar y Alhaurín de la Torre
 </p>
 </div>
 
-<div class="cta" id="reserva">
-<h2>Reserva tu fecha</h2>
-<p>Selecciona tu día y asegura tu evento online</p>
-<a class="btn" href="#">ACCEDE AL CALENDARIO</a>
-</div>
-
 <div class="footer">
-CELEBRARTE © Churriana - Málaga
+CELEBRARTE © Málaga
 </div>
 
 <a class="whatsapp" href="https://wa.me/34610050723">💬</a>
